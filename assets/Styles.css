@@ -1,19 +1,56 @@
-body{
-
-}
 
 .container_principal{
 
     display: flex;
-    align-items:center ;
+    align-items:end ;
     flex-direction: column;
-    height: 75vh;
-    width: 75vh;
+    width: 75%;
     flex-wrap: wrap;
 }
 
 .container_principal img{
-
+    
     width: 200px;
+
+}
+
+.buttom{
+    display: flex;
+    border: 5px solid red;
+    color: #a491d2;
+
+}
+
+.container_chats{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.container_chats img{
+    width: 25%;
+    border-radius: 500px;
+    align-items: flex-start;
+
+}
+.foto img{
+    width: 100px;
+
+}
+
+.general{
+    display: flex;
+    
+}
+.general .container_chats{
+
+    width: 25%;
+
+}
+
+.general .container_principal{
+
+    width: 65%;
 
 }
