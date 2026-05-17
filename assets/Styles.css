@@ -32,7 +32,7 @@
 }
 .foto img{
     
-    width: 75px;
+    width: 55px;
 
 }
 
@@ -40,7 +40,8 @@
 
     display: flex;
     justify-content: center;
-    padding: 5%;
+    padding: 20%;
+    border: 0.5px solid gray;
 
 }
 
@@ -53,7 +54,7 @@
 }
 .general .container_chats{
 
-    width: 25%;
+    width: 35%;
 
 }
 
@@ -73,23 +74,35 @@ button{
 }
 
 .Maria{
+    align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 0.5rem;
-    gap: -100%;
+    border: 0.5px solid grey;
 
 }
 .Maria img{
     display: flex;
-    width: 50px;
+    width: 45px;
     
 
 }
 
 .Maria i{
-
     font-size: medium;
 }
+
+
+.Juanita{
+
+    display: flex;
+    justify-items: flex-end;
+    
+    
+}
+
+
+
 
 
 
