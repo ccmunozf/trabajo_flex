@@ -32,7 +32,15 @@
 }
 .foto img{
     
-    width: 100px;
+    width: 75px;
+
+}
+
+.Buttom{
+
+    display: flex;
+    justify-content: center;
+    padding: 5%;
 
 }
 
@@ -61,12 +69,29 @@ button{
     color: white;
     border: 0px solid ;
 
+
+}
+
+.Maria{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.5rem;
+    gap: -100%;
+
+}
+.Maria img{
+    display: flex;
+    width: 50px;
+    
+
+}
+
+.Maria i{
+
+    font-size: medium;
 }
 
 
-.general .container_chats .maria img{
-    width: 10px;
 
-}
 
 
