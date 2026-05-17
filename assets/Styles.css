@@ -2,9 +2,10 @@
 .container_principal{
 
     display: flex;
-    align-items:end ;
+    align-items: center;
     flex-direction: column;
     width: 75%;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -14,33 +15,32 @@
 
 }
 
-.buttom{
-    display: flex;
-    border: 5px solid red;
-    color: #a491d2;
-
-}
-
 .container_chats{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    border: 1px solid grey;
     
 }
 
 .container_chats img{
     width: 25%;
     border-radius: 500px;
-    align-items: flex-start;
+
+    
 
 }
 .foto img{
+    
     width: 100px;
 
 }
 
 .general{
     display: flex;
+
+    /* eliminar al final */
+    border: 3px solid ;
     
 }
 .general .container_chats{
@@ -54,3 +54,19 @@
     width: 65%;
 
 }
+
+button{
+
+    background-color: #a491d2;
+    color: white;
+    border: 0px solid ;
+
+}
+
+
+.general .container_chats .maria img{
+    width: 10px;
+
+}
+
+
