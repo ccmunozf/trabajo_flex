@@ -1,0 +1,19 @@
+body{
+
+}
+
+.container_principal{
+
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    height: 75vh;
+    width: 75vh;
+    flex-wrap: wrap;
+}
+
+.container_principal img{
+
+    width: 200px;
+
+}
