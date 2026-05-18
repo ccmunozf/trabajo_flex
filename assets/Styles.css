@@ -1,5 +1,4 @@
-
-.container_principal{
+.container_principal {
 
     display: flex;
     align-items: center;
@@ -9,34 +8,35 @@
     flex-wrap: wrap;
 }
 
-.container_principal img{
-    
+.container_principal img {
+
     width: 200px;
 
 }
 
-.container_chats{
+.container_chats {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid grey;
-    
+    border: 0.5px solid grey;
+
 }
 
-.container_chats img{
+.container_chats img {
     width: 25%;
     border-radius: 500px;
 
-    
+
 
 }
-.foto img{
-    
+
+.foto img {
+
     width: 55px;
 
 }
 
-.Buttom{
+.Buttom {
 
     display: flex;
     justify-content: center;
@@ -45,35 +45,36 @@
 
 }
 
-.general{
+.general {
     display: flex;
 
     /* eliminar al final */
-    border: 3px solid ;
-    
+    border: 3px solid;
+
 }
-.general .container_chats{
+
+.general .container_chats {
 
     width: 35%;
 
 }
 
-.general .container_principal{
+.general .container_principal {
 
     width: 65%;
 
 }
 
-button{
+button {
 
     background-color: #a491d2;
     color: white;
-    border: 0px solid ;
+    border: 0px solid;
 
 
 }
 
-.Maria{
+.Maria {
     align-items: center;
     display: flex;
     justify-content: space-evenly;
@@ -81,30 +82,82 @@ button{
     border: 0.5px solid grey;
 
 }
-.Maria img{
+
+.Maria img {
     display: flex;
     width: 45px;
-    
+
 
 }
 
-.Maria i{
+.Maria i {
     font-size: medium;
 }
 
 
-.Juanita{
-
+.Personas {
     display: flex;
-    justify-items: flex-end;
-    
-    
+    flex-direction: column;
 }
 
+.Juanita {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+    font-size: smaller;
 
+}
 
+.Alberto {
 
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+    font-size: smaller;
+}
 
+.Ignacio {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+    font-size: smaller;
+}
 
+.Cristian {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+    font-size: smaller;
+}
 
+.MaríaJosé {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+    font-size: smaller;
 
+}
+
+.Gonzalo {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+    font-size: smaller;
+
+}
+
+.JuanPablo {
+
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+    font-size: smaller;
+}
+
+.Magdalena{
+      display: flex;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+    font-size: smaller;  
+
+}
